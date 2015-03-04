@@ -1,31 +1,10 @@
 ﻿using System;
-/*
-				 \\|//
-				 (o o)
---------------ooO-(_)-Ooo--------------
-Copy rights 2004 By Gregory A. Prentice
-					  Ooo.
---------------.ooO----(  )-------------
-			  (  )    (_/
-			   \_)
-If you wish to use this code in any part
-I request that you simply let me know where
-and give the author credit for his work.
-gregoryprentice@comcast.net
-www.cafechess.org
-*/
 
-using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-//using ChessBoardCtrl;
-//using ChessLibrary;
-//using CustomControls;
-//using DllSharp;
-//using PCAD.CAT;
 
 
 

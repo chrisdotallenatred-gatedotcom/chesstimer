@@ -1,6 +1,8 @@
-﻿namespace Chess_Timer_v_4
+﻿using Properties;
+
+namespace Chess_Timer_v_4
 {
-    using Chess_Timer_v_4.Properties;
+    
     using System;
     using System.ComponentModel;
     using System.Diagnostics;

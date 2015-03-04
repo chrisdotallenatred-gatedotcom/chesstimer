@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="updateInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EnableWinKey" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EnablePauseKey" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WinKey" Type="System.Char" Scope="User">
+      <Value Profile="(Default)">w</Value>
+    </Setting>
+    <Setting Name="selectedTheme" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="customThemeValueColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Highlight</Value>
+    </Setting>
+    <Setting Name="customThemeTitleColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Highlight</Value>
+    </Setting>
+    <Setting Name="PauseKey" Type="System.Char" Scope="User">
+      <Value Profile="(Default)">p</Value>
+    </Setting>
+    <Setting Name="customThemeBgColour" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="showSplashOnExit" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WarningSound" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

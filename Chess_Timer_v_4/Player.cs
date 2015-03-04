@@ -1,6 +1,8 @@
-﻿namespace Chess_Timer_v_4
+﻿using Properties;
+
+namespace Chess_Timer_v_4
 {
-    using Chess_Timer_v_4.Properties;
+    
     using System;
     using System.Drawing;
     using System.Media;
@@ -59,33 +61,33 @@
 
         public void Beep()
         {
-            this.msToNextBeep = 1000.0;
-            if (Settings.Default.WarningSound != -1)
-            {
-                if (Settings.Default.WarningSound == 3)
-                {
-                    try
-                    {
-                        Settings.Default.CustomWarningSound.Play();
-                    }
-                    catch
-                    {
-                        Settings.Default.WarningSound = 1;
-                    }
-                }
-                if (Settings.Default.WarningSound == 0)
-                {
-                    SystemSounds.Exclamation.Play();
-                }
-                else if (Settings.Default.WarningSound == 1)
-                {
-                    SystemSounds.Asterisk.Play();
-                }
-                else if (Settings.Default.WarningSound == 2)
-                {
-                    SystemSounds.Beep.Play();
-                }
-            }
+            //this.msToNextBeep = 1000.0;
+            //if (Settings.Default.WarningSound != -1)
+            //{
+            //    if (Settings.Default.WarningSound == 3)
+            //    {
+            //        try
+            //        {
+            //            Settings.Default.CustomWarningSound.Play();
+            //        }
+            //        catch
+            //        {
+            //            Settings.Default.WarningSound = 1;
+            //        }
+            //    }
+            //    if (Settings.Default.WarningSound == 0)
+            //    {
+            //        SystemSounds.Exclamation.Play();
+            //    }
+            //    else if (Settings.Default.WarningSound == 1)
+            //    {
+            //        SystemSounds.Asterisk.Play();
+            //    }
+            //    else if (Settings.Default.WarningSound == 2)
+            //    {
+            //        SystemSounds.Beep.Play();
+            //    }
+            //}
         }
 
         public void BeginTurn()

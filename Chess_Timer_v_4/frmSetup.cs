@@ -1,9 +1,10 @@
 ﻿using System.IO;
-using Chess_Timer_v_4.Properties;
+using Properties;
+
 
 namespace Chess_Timer_v_4
 {
-   // using Chess_Timer_v_4.Properties;
+
     using System;
     using System.ComponentModel;
     using System.Drawing;
@@ -1050,8 +1051,8 @@ namespace Chess_Timer_v_4
                 {
                     player.Play();
                     this.sound.Text = "Other";
-                    Settings.Default.WarningSound = 3;
-                    Settings.Default.CustomWarningSound = player;
+                   // Settings.Default.WarningSound = 3;
+                  //  Settings.Default.CustomWarningSound = player;
                 }
                 catch
                 {
@@ -1081,11 +1082,12 @@ namespace Chess_Timer_v_4
         {
             this.playSound = false;
             string[] strArray = new string[] { "None", "Exclamation", "Asterisk", "Beep", "Other" };
-            if (((Settings.Default.WarningSound + 1) > strArray.Length) || (Settings.Default.WarningSound < -1))
-            {
-                Settings.Default.WarningSound = 1;
-            }
-            this.sound.Text = strArray[Settings.Default.WarningSound + 1];
+            //if (((Settings.Default.WarningSound + 1) > strArray.Length) || (Settings.Default.WarningSound < -1))
+            //{
+            //    Settings.Default.WarningSound = 1;
+            //}
+            //this.sound.Text = strArray[Settings.Default.WarningSound + 1];
+            this.sound.Text = strArray[1];
             string[] strArray2 = new string[] { "Space Race", "Nostalgia", "Custom" };
             if (((Settings.Default.selectedTheme + 1) > strArray2.Length) || (Settings.Default.selectedTheme < 0))
             {

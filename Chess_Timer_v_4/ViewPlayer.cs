@@ -1,6 +1,8 @@
-﻿namespace Chess_Timer_v_4
+﻿using Properties;
+
+namespace Chess_Timer_v_4
 {
-    using Chess_Timer_v_4.Properties;
+    
     using System;
     using System.ComponentModel;
     using System.Drawing;
@@ -78,16 +80,8 @@
             IntPtr unmanagedPointer;  ///  http://stackoverflow.com/questions/537573/how-to-get-intptr-from-byte-in-c-sharp
             {
 
-
-
-
-
-
-
                 unmanagedPointer = Marshal.AllocHGlobal(numRef.Length);
                 Marshal.Copy(numRef, 0, unmanagedPointer, numRef.Length);
-
-
 
 
                 this.pfc.AddMemoryFont(unmanagedPointer, Resources.pcf1.Length);
@@ -97,7 +91,6 @@
 
                 // Call unmanaged code
                 Marshal.FreeHGlobal(unmanagedPointer);
-
 
             }
             if (((buffer2 = Resources.QuartzMS) == null) || (buffer2.Length == 0))

@@ -88,6 +88,17 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Chess_Timer_v_4.Properties.Resources.resources" />
     <EmbeddedResource Include="Chess_Timer_v_4\frmGame.resx">
       <DependentUpon>frmGame.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +120,10 @@
     <EmbeddedResource Include="Chess_Timer_v_4\ViewTime.resx">
       <DependentUpon>ViewTime.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -127,7 +142,6 @@
     <Compile Include="Chess_Timer_v_4\frmGameEnd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chess_Timer_v_4\Properties\Settings.cs" />
     <Compile Include="Chess_Timer_v_4\SetTime.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -141,12 +155,26 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Chess_Timer_v_4\Player.cs" />
-    <Compile Include="Chess_Timer_v_4\Properties\Resources.cs" />
     <Compile Include="Chess_Timer_v_4\Game.cs" />
     <Compile Include="Chess_Timer_v_4\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\CTDIG" />
+    <None Include="Resources\MotorwerkOblique" />
+    <None Include="Resources\pcf" />
+    <None Include="Resources\pcf1" />
+    <None Include="Resources\QuartzMS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
+    <None Include="Resources\CT_tick.bmp" />
+    <None Include="Resources\CT_cross.bmp" />
+    <None Include="Resources\CT_corss.bmp" />
   </ItemGroup>
   <PropertyGroup>
     <PostBuildEvent>

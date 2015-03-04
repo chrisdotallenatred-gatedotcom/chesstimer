@@ -1,0 +1,15 @@
+D:\Codez\ChessTimer\bin\x64\Debug\Chess Timer v.4.exe.config
+D:\Codez\ChessTimer\bin\x64\Debug\Chess Timer v.4.exe
+D:\Codez\ChessTimer\bin\x64\Debug\Chess Timer v.4.pdb
+D:\Codez\ChessTimer\obj\x64\Debug\Chess Timer v.4.csprojResolveAssemblyReference.cache
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.frmGame.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.frmGameEnd.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.frmSetup.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.PlayerSetup.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.SetTime.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.ViewPlayer.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess_Timer_v_4.ViewTime.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Properties.Resources.resources
+D:\Codez\ChessTimer\obj\x64\Debug\Chess Timer v.4.csproj.GenerateResource.Cache
+D:\Codez\ChessTimer\obj\x64\Debug\Chess Timer v.4.exe
+D:\Codez\ChessTimer\obj\x64\Debug\Chess Timer v.4.pdb

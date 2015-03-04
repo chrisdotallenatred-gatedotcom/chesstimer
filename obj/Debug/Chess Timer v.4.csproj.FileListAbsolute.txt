@@ -12,3 +12,4 @@ D:\Codez\ChessTimer\obj\Debug\Chess Timer v.4.csproj.GenerateResource.Cache
 D:\Codez\ChessTimer\obj\Debug\Chess Timer v.4.exe
 D:\Codez\ChessTimer\obj\Debug\Chess Timer v.4.pdb
 D:\Codez\ChessTimer\obj\Debug\Properties.Resources.resources
+D:\Codez\ChessTimer\obj\Debug\Chess Timer v.4.csprojResolveAssemblyReference.cache
